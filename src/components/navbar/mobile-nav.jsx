@@ -35,7 +35,7 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            WORK
+            EN TERRENO
           </Link>
         </li>
         <li className="flex-center">
@@ -48,7 +48,7 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            ABOUT
+            SOBRE MÍ
           </Link>
         </li>
         <li className="flex-center">
@@ -61,7 +61,7 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            BLOG
+            PROPUESTAS
           </Link>
         </li>
         <li className="flex-center">
@@ -74,7 +74,7 @@ const mobileNav = (props) => (
             duration={500}
             onClick={props.closeMobileMenu}
           >
-            CONTACT
+            CONTÁCTAME
           </Link>
         </li>
       </ul>

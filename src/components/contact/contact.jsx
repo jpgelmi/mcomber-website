@@ -3,11 +3,10 @@ import { Row, Col } from "react-flexbox-grid";
 import "./contact.scss";
 import * as emailjs from "emailjs-com";
 import Title from "../ui-components/title/title";
-import ContactInfo from './contactInfo/contactInfo';
 import ContactSocial from './contactInfo/contactSocial';
 import Modal from '../contact-modal/Modal';
 
-import ContactBackground from '../../assets/contact/bg.png';
+import ContactBackground from '../../assets/contact/bg.jpg';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -113,16 +112,15 @@ class Contact extends React.Component {
       <div id="contact">
         {modalRender}
         <div className="wrapper">
-          <Title title="CONTACT US." />
-          <p className="font12">
+          <Title title="CONTÁCTAME." />
+          <p className="font16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
           </p>
 
           <Row className="padding40">
             <Col md={12} lg={6}>
               <form id="contact-form" onSubmit={this.handleSubmit}>
-                <h4 className="font30 weight800 padding20">¿Tienes alguna idea?...</h4>
-                <h4 className="font30 weight800 padding2">Cuentame!</h4>
+                <h4 className="font30 weight800 padding20">¿Tienes alguna idea?...<br></br>Cuentame!</h4>
                 <input type="text" placeholder="Name" required name="name" value={this.state.name} onChange={this.inputHandler} />
                 <input type="email" placeholder="Email" required name="email" value={this.state.email} onChange={this.inputHandler} />
                 <textarea
@@ -143,7 +141,6 @@ class Contact extends React.Component {
               </div>
             </Col>
           </Row>
-          <ContactInfo />
           <ContactSocial />
         </div>
       </div>

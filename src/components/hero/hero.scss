@@ -3,17 +3,14 @@
 .hero {
   padding-top: 240px;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 25px;
   .hero-info {
-    padding-top: 60px;
+    padding-top: 3rem;
+    padding-left: 2rem;
 
     p {
       padding-top: 20px;
       padding-bottom: 50px;
-    }
-
-    bottom {
-      background-color: red;
     }
   }
 
@@ -21,12 +18,7 @@
     max-width: 570px;
     height: auto;
     float: right;
-    margin-right: 4rem;
-    margin-top: 5rem;
   }
-}
-.boton{
-  background-color: red;
 }
 
 @media screen and (max-width: 1080px) {
@@ -35,7 +27,6 @@
 
     .hero-info {
       padding-top: 0px;
-      padding-top: 4rem;
     }
 
     .hero-image {

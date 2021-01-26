@@ -1,4 +1,4 @@
-@import '../../style/App.scss';
+@import "../../style/App.scss";
 
 #about {
   padding: 60px 0;
@@ -8,4 +8,10 @@
   #about {
     text-align: center;
   }
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  float: right;
 }

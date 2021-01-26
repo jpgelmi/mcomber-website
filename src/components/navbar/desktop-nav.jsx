@@ -15,7 +15,7 @@ const desktopNav = (props) => (
         </Link>
       </div>
       <div className="mobile__menu" onClick={props.mobileMenuOpen}>
-        <img src={MobileMenuIcon} alt="menu" />
+        <img src={MobileMenuIcon} alt="menu" height={"40"} />
       </div>
       <div className="desktop__menu">
         <ul className="flex-s-between">

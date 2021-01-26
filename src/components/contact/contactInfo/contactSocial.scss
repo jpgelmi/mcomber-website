@@ -1,23 +1,19 @@
-@import '../../../style/App.scss';
-
-
+@import "../../../style/App.scss";
 
 .contact__social {
   width: 100%;
-  margin: 60px 0 10px 0;
+  margin: 30px;
   transition: 0.1s ease;
+
   cursor: pointer;
 }
 
-.contact__social:hover {
-  filter: invert(77%) sepia(99%) saturate(652%) hue-rotate(354deg) brightness(98%) contrast(111%);
+
+.svg {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
 }
 
-
-
 @media screen and (max-width: 990px) {
-
-
   .contact__social {
     text-align: center;
     width: 100%;
