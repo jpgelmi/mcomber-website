@@ -7,7 +7,7 @@ import Logo from "./logo_trans.png";
 import Title from "../ui-components/title/title";
 
 const about = () => (
-  <div id="about" className = "about-2" >
+  <div id="about" className="about-2">
     <div className="wrapper">
       <Title title="SOBRE MÍ." />
       <Row className="trans-container">
@@ -38,6 +38,14 @@ const about = () => (
         </Col>
         <div className="image-trans">
           <img src={Logo} alt="hero" className="trans" />
+        </div>
+        <div className="medium__button">
+          <a
+            target="_blank"
+            href="https://aportes.servel.cl/servel-aportes/inicio.xhtml"
+          >
+            <button value="Aportar">Haz tu aporte</button>
+          </a>
         </div>
       </Row>
     </div>

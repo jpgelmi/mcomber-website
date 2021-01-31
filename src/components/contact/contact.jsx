@@ -141,9 +141,7 @@ class Contact extends React.Component {
                 ></textarea>
                 <Row>
                   {submitButtonRender}
-                  <div className="small__button">
-                    <button value="Aportar">Haz tu aporte</button>
-                  </div>
+                 
                 </Row>
               </form>
             </Col>
