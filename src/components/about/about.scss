@@ -2,11 +2,20 @@
 
 #about {
   padding: 30px 0;
+  align-items: center;
+  align-content: center;
+}
+
+.about-2{
+  align-items: center;
+  align-content: center;
 }
 
 @media screen and (max-width: 990px) {
   #about {
     text-align: center;
+    align-items: center;
+    align-content: center;
   }
 }
 
@@ -18,28 +27,28 @@
   align-items: center;
 }
 
-.image-trans{
+.image-trans {
   width: 40%;
   height: auto;
   float: right;
   align-items: center;
   padding-top: 2rem;
 }
-.trans-container{
+.trans-container {
   align-items: center;
   justify-content: center;
 }
-.img{
+.img-2 {
   width: 100%;
   align-content: center;
   align-items: center;
 }
-.trans{
+.trans {
   height: 100%;
   height: auto;
   float: right;
 }
-.aling{
+.aling {
   align-items: center;
   align-content: center;
 }

@@ -139,7 +139,12 @@ class Contact extends React.Component {
                   value={this.state.message}
                   onChange={this.inputHandler}
                 ></textarea>
-                {submitButtonRender}
+                <Row>
+                  {submitButtonRender}
+                  <div className="small__button">
+                    <button value="Aportar">Haz tu aporte</button>
+                  </div>
+                </Row>
               </form>
             </Col>
             <Col md={12} lg={6}>

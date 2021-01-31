@@ -7,7 +7,7 @@ import Logo from "./logo_trans.png";
 import Title from "../ui-components/title/title";
 
 const about = () => (
-  <div id="about">
+  <div id="about" className = "about-2" >
     <div className="wrapper">
       <Title title="SOBRE MÍ." />
       <Row className="trans-container">
@@ -33,18 +33,8 @@ const about = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" className="img" />
-            <div className="medium__button">
-            <button
-              aria-label="send message"
-              type="submit"
-              value="Enviar Mensaje"
-            >
-              Haz tu aporte
-            </button>
+            <img src={HeroImage} alt="hero" className="img-2" />
           </div>
-          </div>
-          
         </Col>
         <div className="image-trans">
           <img src={Logo} alt="hero" className="trans" />
