@@ -4,55 +4,33 @@
   background-color: $black-color;
   width: 100%;
   min-height: 180px;
+  align-items: center;
+  align-content: center;
 
   .footer-box {
-    min-height: 180px;
     display: flex;
     align-items: center;
     padding: 2rem;
-
-    p {
-      color: $white-color;
-      font-size: 2.5rem;
-      margin-left: 30px;
-      font-weight: 800;
-      letter-spacing: 3px;
-    }
+    align-content: center;
   }
 
-  .back-to-top {
-    float: right;
-    cursor: pointer;
-    img {
-      margin-left: 10px;
-    }
-  }
 
-  .back-to-top:hover {
-    p {
-      color: $main-color;
-    }
-  }
+.foot-img{
+  height: 100%;
+  width: auto;
 }
 
 @media screen and (max-width: 580px) {
   .footer {
+
     .footer-box {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
       img {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
       }
     }
-    .back-to-top {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      float: none;
-      flex-direction: row;
-      
       img {
         padding-bottom: 0px;
       }

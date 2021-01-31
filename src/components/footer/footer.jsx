@@ -7,16 +7,9 @@ import Logo from '../../assets/footer/logo.png';
 const partnerBox = () => (
   <div className="footer">
     <div className="wrapper">
-      <Row>
-        <Col xs={12} sm={6} md={6}>
           <div className="footer-box">
-            <img src={Logo} alt="logo" height = {200}/>
-            <p>¡Trabajemos Juntos<br></br>Lo Barnechea!</p>
+            <img src={Logo} alt="logo" className= "foot-img"/>
           </div>
-        </Col>
-        <Col xs={12} sm={6} md={6}>
-        </Col>
-      </Row>
     </div>
   </div>
 );
