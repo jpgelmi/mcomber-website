@@ -3,10 +3,10 @@ import { Row, Col } from "react-flexbox-grid";
 import "./contact.scss";
 import * as emailjs from "emailjs-com";
 import Title from "../ui-components/title/title";
-import ContactSocial from './contactInfo/contactSocial';
-import Modal from '../contact-modal/Modal';
+import ContactSocial from "./contactInfo/contactSocial";
+import Modal from "../contact-modal/Modal";
 
-import ContactBackground from '../../assets/contact/bg.jpg';
+import ContactBackground from "../../assets/contact/bg.png";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -36,17 +36,11 @@ class Contact extends React.Component {
       message: this.state.message,
     };
 
-
-
-
     // YOUR EMAIL.JS API KEY IN FORMAT user_xxxxxxxxxxxxxxxxxx
     let API_KEY = "";
 
     // YOUR EMAIL.JS TEMPLATE ID
     let TEMPLATE_ID = "";
-
-
-
 
     emailjs.send("default_service", TEMPLATE_ID, template_params, API_KEY).then(
       function (response) {
@@ -113,20 +107,33 @@ class Contact extends React.Component {
         {modalRender}
         <div className="wrapper">
           <Title title="CONTÁCTAME." />
-          <p className="font16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt<br></br>ut labore et dolore magna aliqua.
-          </p>
 
-          <Row className="padding40">
+          <Row className="padding20">
             <Col md={12} lg={6}>
               <form id="contact-form" onSubmit={this.handleSubmit}>
-                <h4 className="font30 weight800 padding20">¿Tienes alguna idea?...<br></br>Cuentame!</h4>
-                <input type="text" placeholder="Name" required name="name" value={this.state.name} onChange={this.inputHandler} />
-                <input type="email" placeholder="Email" required name="email" value={this.state.email} onChange={this.inputHandler} />
+                <h4 className="font30 weight800 padding5">
+                  ¿Tienes alguna idea?...<br></br>Cuentame!
+                </h4>
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  name="name"
+                  value={this.state.name}
+                  onChange={this.inputHandler}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  required
+                  name="email"
+                  value={this.state.email}
+                  onChange={this.inputHandler}
+                />
                 <textarea
                   rows="6"
                   cols="50"
-                  placeholder="Message..."
+                  placeholder="Mensaje"
                   required
                   name="message"
                   value={this.state.message}
@@ -136,7 +143,7 @@ class Contact extends React.Component {
               </form>
             </Col>
             <Col md={12} lg={6}>
-              <div className="flex-center">
+              <div className="flex-center pad">
                 <img src={ContactBackground} alt="contact background" />
               </div>
             </Col>
@@ -146,6 +153,6 @@ class Contact extends React.Component {
       </div>
     );
   }
-};
+}
 
 export default Contact;

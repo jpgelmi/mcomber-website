@@ -101,7 +101,7 @@ body {
 }
 .wrapper {
   max-width: 1200px;
-  padding: 0 15px;
+  padding: 0 10px;
   height: 100%;
   margin: 0 auto;
 }
@@ -217,8 +217,10 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 1.5rem;
 }
 .font20 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
   color: white;
+  letter-spacing: 4;
 }
 .font23 {
   font-size: 2.3rem;

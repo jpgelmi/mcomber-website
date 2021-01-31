@@ -1,5 +1,8 @@
 @import '../../style/App.scss';
 
+.pad{
+padding-top: 2rem;
+}
 
 #contact {
   padding: 60px 0;
@@ -35,6 +38,7 @@ input {
   border: 2px solid #F1E52D;
   outline: none;
   margin: 5px 0;
+  color: #F1E52D;
 }
 input:active, input:focus {
   border: 2px solid $main-color;
@@ -57,6 +61,7 @@ textarea {
   outline: none;
   margin: 5px 0;
   border-color: #F1E52D;
+  color: #F1E52D;
 }
 
 textarea:active, textarea:focus {
