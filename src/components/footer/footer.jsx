@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-flexbox-grid";
 import "./footer.scss";
 
-import Logo from '../../assets/footer/logo.png';
+import Logo from '../../assets/footer/combersemos.png';
 
 const partnerBox = () => (
   <div className="footer">
