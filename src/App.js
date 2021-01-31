@@ -11,7 +11,7 @@ import About from "./components/about/about";
 import Blog from "./components/blog/blog";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
-import Comber from "./components/combersemos/comber"
+import Comber from "./components/combersemos/comber";
  
 class App extends React.Component {
   state = {
