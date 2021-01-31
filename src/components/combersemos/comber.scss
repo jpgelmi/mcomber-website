@@ -11,7 +11,7 @@
 }
 
 .hero-image {
-  max-width: 100%;
+  width: 30%;
   height: auto;
   float: right;
 }
@@ -20,13 +20,15 @@
   margin-top: 3rem;
 }
 .image-trans{
-  width: 70%;
+  width: 100%;
   height: auto;
   float: right;
   align-items: center;
   padding-top: 2rem;
 }
 .trans-container{
-  align-items: center;
-  justify-content: center;
+  align-items: center ;
+  justify-content: center ;
+  padding: 2rem;
+  margin: 2rem;
 }
