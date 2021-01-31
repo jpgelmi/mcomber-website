@@ -10,7 +10,7 @@ const about = () => (
   <div id="about">
     <div className="wrapper">
       <Title title="SOBRE MÍ." />
-      <Row className= "trans-container">
+      <Row className="trans-container">
         <Col md={12} lg={6}>
           <p className="font20">
             Soy Michael Comber, tengo 28 años, vivo hace más de veinte años en
@@ -33,11 +33,21 @@ const about = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" className="img"/>
+            <img src={HeroImage} alt="hero" className="img" />
+            <div className="medium__button">
+            <button
+              aria-label="send message"
+              type="submit"
+              value="Enviar Mensaje"
+            >
+              Haz tu aporte
+            </button>
           </div>
+          </div>
+          
         </Col>
         <div className="image-trans">
-          <img src={Logo} alt="hero" className="trans"/>
+          <img src={Logo} alt="hero" className="trans" />
         </div>
       </Row>
     </div>

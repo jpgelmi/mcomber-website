@@ -14,6 +14,8 @@
   width: 100%;
   height: auto;
   float: right;
+  align-content: center;
+  align-items: center;
 }
 
 .image-trans{
@@ -29,9 +31,15 @@
 }
 .img{
   width: 100%;
+  align-content: center;
+  align-items: center;
 }
 .trans{
   height: 100%;
   height: auto;
   float: right;
+}
+.aling{
+  align-items: center;
+  align-content: center;
 }

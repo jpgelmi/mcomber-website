@@ -27,6 +27,24 @@ padding-top: 2rem;
   }
 }
 
+.medium__button {
+  button {
+    background-color: #012E46;
+    border: 2px solid $main-color;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 5px 0 30px 0;
+    outline: none;
+    color: #F1E52D;
+  }
+  button:hover {
+    border: 2px solid $main-color;
+    background-color: #F1E52D;
+    color: #012E46;
+  }
+}
 input {
   background-color: $light-color;
   width: 100%;
