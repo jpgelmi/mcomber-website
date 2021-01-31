@@ -22,10 +22,15 @@
     margin-bottom: 4rem;
 }
 .img{
-    width: 100%;
+    width: 90%;
     height: auto;
     float: right;
     margin: 0;
+    padding: 2%;
+}
+
+.img:hover{
+    width: 100%;
 }
 
 
