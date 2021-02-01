@@ -1,12 +1,14 @@
 @import '../../style/App.scss';
 
-.blog {
-  background-color: $light-color;
-  padding: 60px 0;
+.propuestas-cont{
+  margin-left: 10%;
+}
+.parrafo{
+  margin-left: 15%;
+  margin-right: 10%;
+  padding-top: 2rem;
 }
 
-@media screen and (max-width: 990px) {
-  #blog {
-    text-align: center;
-  }
+.despues{
+  margin-top: 4rem;
 }
