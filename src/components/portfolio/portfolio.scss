@@ -70,11 +70,37 @@ h1 {
   height: auto;
 }
 
+.vid-cont2{
+  width: 30%;
+  height: auto;
+}
+.vid{
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .img-cont{
     width: 100%;
     height: auto;
   }
+  .position-cont{
+    align-items: center;
+    align-content: center;
+    margin-left: 0;
+  }
+  .gallery > div > img {
+    width: 100%;
+  }
+  
+  .gallery > div:hover {
+    z-index: 0;
+  }
+  
+  .gallery > div:hover > img {
+    transform: scale(1,1);
+  }
+  
 
 }
