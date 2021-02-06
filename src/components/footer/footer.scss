@@ -10,25 +10,35 @@
   .footer-box {
     display: flex;
     align-items: center;
-    padding: 2rem;
-    align-content: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    height: auto;
+    width: 100%;
   }
 
 
 .foot-img{
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 70%;
 }
 
 @media screen and (max-width: 580px) {
   .footer {
+    width: 100%;
+    min-height: 400px;
+    align-items: center;
+    align-content: center;
 
     .footer-box {
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
-        padding-bottom: 10px;
+      padding: 0;
+      margin: 0;
+      .foot-img{
+        height: auto;
+        width: 100%;
       }
     }
       img {

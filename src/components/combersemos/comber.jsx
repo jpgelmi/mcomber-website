@@ -21,7 +21,7 @@ const Comber = () => (
       <Title title="COMBERsemos" />
       <Row className="row">
         <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/">
+        <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/" rel="noopener noreferrer">
           <img src={image1} className="img-c" />
         </a>
         </Col>
@@ -40,14 +40,14 @@ const Comber = () => (
           <img src={image5} className="img-c" />
         </Col>
         <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CKSff-ggj3m/">
+        <a target="_blank" href="https://www.instagram.com/tv/CKSff-ggj3m/" rel="noopener noreferrer">
           <img src={image6} className="img-c" />
         </a>
         </Col>
       </Row>
       <Row className="row">
         <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CJCdgG6DgSS/">
+        <a target="_blank" href="https://www.instagram.com/tv/CJCdgG6DgSS/" rel="noopener noreferrer">
           <img src={image7} className="img-c" />
         </a>
         </Col>
@@ -55,7 +55,7 @@ const Comber = () => (
           <img src={image8} className="img-c" />
         </Col>
         <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CJ_BTh-jR0z/">
+        <a target="_blank" href="https://www.instagram.com/tv/CJ_BTh-jR0z/" rel="noopener noreferrer">
           <img src={image9} className="img-c" />
         </a>
         </Col>

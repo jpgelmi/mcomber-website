@@ -43,6 +43,7 @@ const about = () => (
           <a
             target="_blank"
             href="https://aportes.servel.cl/servel-aportes/inicio.xhtml"
+            rel="noopener noreferrer"
           >
             <button value="Aportar">Haz tu aporte</button>
           </a>

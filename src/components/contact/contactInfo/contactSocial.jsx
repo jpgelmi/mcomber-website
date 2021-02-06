@@ -12,22 +12,22 @@ const contactSocial = () => (
     <Col xs={12}>
       <Row center="xs">
         <Col xs={2} lg={1} className="contact__social">
-          <a target="_blank" href="https://www.facebook.com/COMBERsemos/">
+          <a target="_blank" href="https://www.facebook.com/COMBERsemos/" rel="noopener noreferrer">
             <img src={FacebookIcon} alt="facebook" />
           </a>
         </Col>
         <Col xs={2} lg={1} className="contact__social">
-          <a target="_blank" href="https://twitter.com/comber_v">
+          <a target="_blank" href="https://twitter.com/comber_v" rel="noopener noreferrer">
             <img src={Twitter} alt="Dribble" />
           </a>
         </Col>
         <Col xs={2} lg={1} className="contact__social">
-          <a target="_blank" href="https://www.instagram.com/comber_v/">
+          <a target="_blank" href="https://www.instagram.com/comber_v/" rel="noopener noreferrer">
             <img src={InstagramIcon} alt="Twitter" />
           </a>
         </Col>
         <Col xs={2} lg={1} className="contact__social">
-          <a target="_blank" href="https://www.tiktok.com/@comber_v?lang=es">
+          <a target="_blank" href="https://www.tiktok.com/@comber_v?lang=es" rel="noopener noreferrer">
             <img src={TicIcon} alt="Dribble" />
           </a>
         </Col>
