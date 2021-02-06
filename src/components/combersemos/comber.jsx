@@ -18,7 +18,7 @@ import "./comber.scss";
 const Comber = () => (
   <div id="comber">
     <div className="container">
-      <Title title="COMBERsemos." />
+      <Title title="COMBERsemos" />
       <Row className="row">
         <Col className="img-container">
         <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/">

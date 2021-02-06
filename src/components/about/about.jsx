@@ -9,7 +9,7 @@ import Title from "../ui-components/title/title";
 const about = () => (
   <div id="about" className="about-2">
     <div className="wrapper">
-      <Title title="SOBRE MÍ." />
+      <Title title="SOBRE MÍ" />
       <Row className="trans-container">
         <Col md={12} lg={6}>
           <p className="font20">

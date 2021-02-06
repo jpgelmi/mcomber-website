@@ -106,13 +106,13 @@ class Contact extends React.Component {
       <div id="contact">
         {modalRender}
         <div className="wrapper">
-          <Title title="CONTÁCTAME." />
+          <Title title="CONTÁCTAME" />
 
           <Row className="padding20">
             <Col md={12} lg={6}>
               <form id="contact-form" onSubmit={this.handleSubmit}>
                 <h4 className="font30 weight800 padding5">
-                  ¿Tienes alguna idea?...<br></br>Cuentame!
+                ¿Tienes alguna idea o pregunta?
                 </h4>
                 <input
                   type="text"

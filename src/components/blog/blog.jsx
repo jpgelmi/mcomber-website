@@ -16,7 +16,7 @@ import Title from "../ui-components/title/title";
 const Blog = () => (
   <div id="blog" className="about-2">
     <div className="wrapper">
-      <Title title="PROPUESTAS." />
+      <Title title="PROPUESTAS" />
       <Row>
         <div className="font70 propuestas-cont">EL DESAFÍO DE LA VIVIENDA</div>
         <p className="font20 parrafo">

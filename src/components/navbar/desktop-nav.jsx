@@ -52,7 +52,7 @@ const desktopNav = (props) => (
               offset={-70}
               duration={500}
             >
-              PROPESTAS
+              PROPUESTAS
             </Link>
           </li>
           <li>

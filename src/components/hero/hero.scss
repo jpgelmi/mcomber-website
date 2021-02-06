@@ -2,12 +2,12 @@
 
 .hero {
   padding-top: 100px;
-  width: 100%;
+  width: 70%;
   padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto ;
   .hero-info {
     padding-top: 3rem;
-    padding-left: 2rem;
-
     p {
       padding-top: 20px;
       padding-bottom: 50px;
@@ -16,6 +16,7 @@
 
   .hero-image {
     width: 100%;
+
   }
   .hero-video{
     width: 100%;
@@ -24,9 +25,14 @@
 @media screen and (max-width: 1080px) {
   .hero {
     padding-top: 140px;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
 
     .hero-info {
       padding-top: 0px;
+      margin-left: 0;
     }
 
     .hero-image {
@@ -43,4 +49,8 @@
       text-align: center;
     }
   }
+}
+
+.cont{
+  align-items: center;
 }
