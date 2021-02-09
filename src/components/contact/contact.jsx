@@ -146,10 +146,18 @@ class Contact extends React.Component {
                 <img src={ContactBackground} alt="contact background" />
               </div>
               <div className="flex-center pad padb">
-                <h2 className="font30 weight800 padding5 color-b">
+                <p className="font30 weight800 padding5 color-b">
                   Para unirte al canal <br></br>{" "}
-                  Combersemos en Telegram <br></br>haz click aquí
-                </h2>
+                  <span className="font30 weight800 padding5 color-y">
+                    Combersemos{" "}
+                  </span>
+                  en Telegram <br></br>haz click {" "}
+                  <span className="font30 weight800 padding5 color-y">
+                  <a href="https://t.me/COMBERsemos" className="color-y" target ="#blank">
+                    aquí 
+                  </a>
+                  </span>
+                </p>
               </div>
             </Col>
           </Row>
