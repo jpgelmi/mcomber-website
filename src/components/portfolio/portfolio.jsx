@@ -13,7 +13,7 @@ import Title from "../ui-components/title/title";
 
 const Portfolio = () => (
   <div className="position-cont" id="portfolio">
-    <Title title="EN TERRENO." />
+    <Title title="EN TERRENO" />
     <div class="gallery cf">
       <div className="img-cont">
         <img src={Preview2} />

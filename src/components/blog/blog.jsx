@@ -61,9 +61,8 @@ const Blog = () => (
             El deporte y la cultura, cuando se practican cotidianamente con un
             guía responsable, son las herramientas más potentes que tenemos para
             prevenir otros malos hábitos, como son el consumo de drogas. Debemos
-            financiar y apoyar todas las iniciativas que sean un aporte social
-            en este sentido. Debemos financiar y apoyar todas las iniciativas de
-            la sociedad civil que sean un aporte a nuestra comunidad.
+            financiar y apoyar todas las iniciativas de la sociedad civil que
+            sean un aporte a nuestra comunidad.
           </p>
         </Col>
         <Col md={12} lg={6}>
