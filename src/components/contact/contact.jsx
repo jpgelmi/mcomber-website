@@ -147,15 +147,21 @@ class Contact extends React.Component {
               </div>
               <div className="flex-center pad padb">
                 <p className="font30 weight800 padding5 color-b">
-                  Para unirte al canal <br></br>{" "}
-                  <span className="font30 weight800 padding5 color-y">
-                    Combersemos{" "}
+                <span className="font30 weight800 padding5 color-y">
+                  COMBERsemos{" "}
                   </span>
-                  en Telegram <br></br>haz click {" "}
-                  <span className="font30 weight800 padding5 color-y">
+                   <br></br>{" "} 
+                  por WhatsApp {" "}
+                  <span className="font30 weight800 padding15 color-y">
                   <a href="https://t.me/COMBERsemos" className="color-y" target ="#blank">
                     aquí 
-                  </a>
+                  <br></br></a>
+                  </span>
+                  por Telegram
+                  <span className="font30 weight800 padding5 color-y ">
+                  <a href="https://t.me/COMBERsemos" className="color-y" target ="#blank">
+                    aquí 
+                  <br></br></a>
                   </span>
                 </p>
               </div>
