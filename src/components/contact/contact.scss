@@ -142,7 +142,7 @@ textarea:focus {
     margin: 30px auto;
   }
   .padb{
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
   
 }
@@ -155,6 +155,10 @@ textarea:focus {
   margin-bottom: 10rem;
 }
 
-.colorh2{
+.color-b{
  color: #fff;
+}
+
+.color-y{
+  color: #f1e52d;
 }

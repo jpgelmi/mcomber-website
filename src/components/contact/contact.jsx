@@ -111,7 +111,7 @@ class Contact extends React.Component {
             <Col md={12} lg={6}>
               <form id="contact-form" onSubmit={this.handleSubmit}>
                 <h4 className="font30 weight800 padding5">
-                ¿Tienes alguna idea o pregunta?
+                  ¿Tienes alguna idea o pregunta?
                 </h4>
                 <input
                   type="text"
@@ -138,18 +138,18 @@ class Contact extends React.Component {
                   value={this.state.message}
                   onChange={this.inputHandler}
                 ></textarea>
-                <Row>
-                  {submitButtonRender}
-                 
-                </Row>
+                <Row>{submitButtonRender}</Row>
               </form>
             </Col>
             <Col md={12} lg={6}>
               <div className="flex-center">
                 <img src={ContactBackground} alt="contact background" />
               </div>
-              <div className ="flex-center pad padb">
-                <h2 className="font30 weight800 padding5 colorh2">Para unirte al canal <br></br>COMBERsemos en Telegram <br></br>haz click aquí</h2>
+              <div className="flex-center pad padb">
+                <h2 className="font30 weight800 padding5 color-b">
+                  Para unirte al canal <br></br>{" "}
+                  Combersemos en Telegram <br></br>haz click aquí
+                </h2>
               </div>
             </Col>
           </Row>
