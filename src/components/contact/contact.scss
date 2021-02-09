@@ -2,6 +2,8 @@
 
 .pad {
   padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 #contact {
@@ -139,8 +141,20 @@ textarea:focus {
   .sending-btn {
     margin: 30px auto;
   }
+  .padb{
+    margin-bottom: 0;
+  }
+  
 }
 
 .orientation {
   flex-direction: row;
+}
+
+.padb{
+  margin-bottom: 10rem;
+}
+
+.colorh2{
+ color: #fff;
 }

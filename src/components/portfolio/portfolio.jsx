@@ -1,6 +1,4 @@
 import React from "react";
-import { Row, Col } from "react-flexbox-grid";
-import Masonry from "react-masonry-css";
 //Scss
 import "./portfolio.scss";
 //Assets

@@ -1,9 +1,7 @@
 import React from "react";
-import { Row, Col } from "react-flexbox-grid";
+import { Row} from "react-flexbox-grid";
 // SCSS
 import "./hero.scss";
-//Components
-import Button from "../ui-components/button/button";
 //import video
 import ComberVid from "../../assets/hero/videoComber.mp4";
 

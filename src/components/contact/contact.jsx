@@ -3,7 +3,6 @@ import { Row, Col } from "react-flexbox-grid";
 import "./contact.scss";
 import * as emailjs from "emailjs-com";
 import Title from "../ui-components/title/title";
-import ContactSocial from "./contactInfo/contactSocial";
 import Modal from "../contact-modal/Modal";
 
 import ContactBackground from "../../assets/contact/bg.png";
@@ -146,12 +145,14 @@ class Contact extends React.Component {
               </form>
             </Col>
             <Col md={12} lg={6}>
-              <div className="flex-center pad">
+              <div className="flex-center">
                 <img src={ContactBackground} alt="contact background" />
+              </div>
+              <div className ="flex-center pad padb">
+                <h2 className="font30 weight800 padding5 colorh2">Para unirte al canal <br></br>COMBERsemos en Telegram <br></br>haz click aquí</h2>
               </div>
             </Col>
           </Row>
-          <ContactSocial />
         </div>
       </div>
     );
