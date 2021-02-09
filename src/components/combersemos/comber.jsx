@@ -9,7 +9,7 @@ import image6 from "./images/image6.png";
 import image7 from "./images/image7.png";
 import image8 from "./images/image8.png";
 import image9 from "./images/image9.png";
-
+import image10 from "./images/image10.png";
 
 import Title from "../ui-components/title/title";
 
@@ -20,45 +20,72 @@ const Comber = () => (
     <div className="container">
       <Title title="COMBERsemos" />
       <Row className="row">
-        <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/" rel="noopener noreferrer">
-          <img src={image1} className="img-c" />
-        </a>
-        </Col>
-        <Col className="img-container">
-          <img src={image2} className="img-c" />
-        </Col>
-        <Col className="img-container">
-          <img src={image3} className="img-c" />
-        </Col>
-      </Row>
-      <Row className="row">
-        <Col className="img-container">
-          <img src={image4} className="img-c" />
-        </Col>
-        <Col className="img-container">
-          <img src={image5} className="img-c" />
-        </Col>
-        <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CKSff-ggj3m/" rel="noopener noreferrer">
-          <img src={image6} className="img-c" />
-        </a>
-        </Col>
-      </Row>
-      <Row className="row">
-        <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CJCdgG6DgSS/" rel="noopener noreferrer">
-          <img src={image7} className="img-c" />
-        </a>
-        </Col>
-        <Col className="img-container">
-          <img src={image8} className="img-c" />
-        </Col>
-        <Col className="img-container">
-        <a target="_blank" href="https://www.instagram.com/tv/CJ_BTh-jR0z/" rel="noopener noreferrer">
-          <img src={image9} className="img-c" />
-        </a>
-        </Col>
+        <div className="img-container">
+          <a target="_blank" href="" rel="noopener noreferrer">
+            <img src={image1} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a target="_blank" href="" rel="noopener noreferrer">
+            <img src={image2} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a target="_blank" href="https://www.instagram.com/tv/CIWpg5uJ6MO/" rel="noopener noreferrer">
+            <img src={image6} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a target="_blank" href="" rel="noopener noreferrer">
+            <img src={image3} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a target="_blank" href="" rel="noopener noreferrer">
+            <img src={image4} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/tv/CKSff-ggj3m/"
+            rel="noopener noreferrer"
+          >
+            <img src={image5} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/tv/CJCdgG6DgSS/"
+            rel="noopener noreferrer"
+          >
+            <img src={image7} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a target="_blank" href="" rel="noopener noreferrer">
+            <img src={image8} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/tv/CJ_BTh-jR0z/"
+            rel="noopener noreferrer"
+          >
+            <img src={image9} className="img-c" />
+          </a>
+        </div>
+        <div className="img-container">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/tv/CJ_BTh-jR0z/"
+            rel="noopener noreferrer"
+          >
+            <img src={image10} className="img-c" />
+          </a>
+        </div>
       </Row>
     </div>
   </div>

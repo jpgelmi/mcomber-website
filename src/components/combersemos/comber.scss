@@ -11,25 +11,37 @@
 .row{
     align-content: center;
     align-items: center;
-    margin-left: 1%;
     flex-wrap: wrap;
 }
 
 .img-container{
-    width: 31%;
+    width: 10%;
     height: auto;
     float: right;
-    margin-bottom: 4rem;
+    margin-left: 0;
+    display: inline-block;
 }
 .img-c{
     width: 90%;
     float: right;
-    margin: 0;
-    padding: 5%;
+    margin-left: 0;
 }
 
 .img-c:hover{
     width: 100%;
 }
 
-
+@media screen and (max-width: 990px) {
+    .row{
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .img-container{
+        width: 50%;
+        height: auto;
+        float: right;
+        margin-bottom: 4rem;
+    }
+}
