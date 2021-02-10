@@ -21,7 +21,7 @@ const Comber = () => (
       <Title title="COMBERsemos" />
       <Row className="row">
         <div className="img-container">
-          <a target="_blank" href="" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/" rel="noopener noreferrer">
             <img src={image1} className="img-c" />
           </a>
         </div>
