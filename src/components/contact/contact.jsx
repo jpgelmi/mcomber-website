@@ -157,7 +157,7 @@ class Contact extends React.Component {
                     aquí 
                   <br></br></a>
                   </span>
-                  por Telegram
+                  por Telegram {" "}
                   <span className="font30 weight800 padding5 color-y ">
                   <a href="https://t.me/COMBERsemos" className="color-y" target ="#blank">
                     aquí 
