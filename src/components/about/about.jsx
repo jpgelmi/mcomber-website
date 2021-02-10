@@ -12,8 +12,7 @@ const about = () => (
       <Row className="trans-container">
         <Col md={12} lg={6}>
           <p className="font20">
-            Soy Michael Comber, tengo 28 años, soy Arquitecto y Magíster en
-            Proyecto Urbano de la PUC. Tuve la alegría de liderar la
+            Soy Michael Comber, tengo 28 años, soy Arquitecto y Magíster en Proyecto Urbano UC. Tuve la alegría de liderar la
             Organización Vecinal Plan 18 durante 5 años, con la cual nos
             dedicamos a generar proyectos de desarrollo urbano y social en el
             Cerro 18, experiencia que luego llevó a a que me titulara con un
