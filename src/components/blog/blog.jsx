@@ -49,7 +49,7 @@ const Blog = () => (
         <Col md={12} lg={6}>
           <div className="vid margin-vid">
             <video className="vid" controls>
-              <source src={Vivienda} />
+              <source src={Naturaleza} />
             </video>
           </div>
         </Col>
@@ -68,7 +68,7 @@ const Blog = () => (
         <Col md={12} lg={6}>
           <div className="vid">
             <video className="vid margin-vid" controls>
-              <source src={Vivienda} />
+              <source src={Deporte} />
             </video>
           </div>
         </Col>

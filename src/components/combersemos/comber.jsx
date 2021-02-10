@@ -71,7 +71,7 @@ const Comber = () => (
         <div className="img-container">
           <a
             target="_blank"
-            href="https://www.instagram.com/tv/CJ_BTh-jR0z/"
+            href="https://www.instagram.com/p/CGYYwM2DBwO/?igshid=n20c71rbjad7"
             rel="noopener noreferrer"
           >
             <img src={image9} className="img-c" />

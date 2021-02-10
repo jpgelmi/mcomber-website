@@ -153,7 +153,7 @@ class Contact extends React.Component {
                    <br></br>{" "} 
                   por WhatsApp {" "}
                   <span className="font30 weight800 padding15 color-y">
-                  <a href="https://t.me/COMBERsemos" className="color-y" target ="#blank">
+                  <a href="https://chat.whatsapp.com/L8DpaaArgmM0qPPrFSMgpP" className="color-y" target ="#blank">
                     aquí 
                   <br></br></a>
                   </span>
