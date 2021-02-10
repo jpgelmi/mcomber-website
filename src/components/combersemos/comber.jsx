@@ -29,7 +29,7 @@ const Comber = () => (
           </a>
         </div>
         <div className="img-container">
-          <a target="_blank" href="" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.instagram.com/p/CKpRJa5j6TG/?igshid=w1977hze8yn6" rel="noopener noreferrer">
             <img src={image2} className="img-c"
               alt = "Michael Comber - Diego Schalper"  
             />
@@ -43,7 +43,7 @@ const Comber = () => (
           </a>
         </div>
         <div className="img-container">
-          <a target="_blank" href="" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.instagram.com/p/CKwtXU7js_u/?igshid=5ctagr3jxxcs" rel="noopener noreferrer">
             <img src={image3} className="img-c"
               alt = "Michael Comber - Bernardo Fontaine"  
             />
@@ -59,7 +59,7 @@ const Comber = () => (
         <div className="img-container">
           <a
             target="_blank"
-            href="https://www.instagram.com/tv/CKSff-ggj3m/"
+            href="https://drive.google.com/file/d/1gy5GGZI5Q8frf6RrmteGHbTklxQeaTbc/view?usp=sharing"
             rel="noopener noreferrer"
             alt = "Michael Comber - Pablo Allard"  
           >
@@ -69,7 +69,7 @@ const Comber = () => (
         <div className="img-container">
           <a
             target="_blank"
-            href="https://www.instagram.com/tv/CJCdgG6DgSS/"
+            href="https://www.instagram.com/tv/CKSff-ggj3m/"
             rel="noopener noreferrer"
             alt = "Michael Comber - Verónica Campino" 
           >
@@ -77,7 +77,8 @@ const Comber = () => (
           </a>
         </div>
         <div className="img-container">
-          <a target="_blank" href="" rel="noopener noreferrer">
+          <a target="_blank" href="
+          https://www.instagram.com/p/CGYYwM2DBwO/?igshid=n20c71rbjad7" rel="noopener noreferrer">
             <img src={image8} className="img-c"
              alt = "Michael Comber - Sergio Torres" 
             />
@@ -86,7 +87,7 @@ const Comber = () => (
         <div className="img-container">
           <a
             target="_blank"
-            href="https://www.instagram.com/p/CGYYwM2DBwO/?igshid=n20c71rbjad7"
+            href=" https://www.instagram.com/tv/CJCdgG6DgSS/"
             rel="noopener noreferrer"
           >
             <img src={image9} className="img-c"
