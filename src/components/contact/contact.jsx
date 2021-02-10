@@ -143,7 +143,7 @@ class Contact extends React.Component {
             </Col>
             <Col md={12} lg={6}>
               <div className="flex-center">
-                <img src={ContactBackground} alt="contact background" />
+                <img src={ContactBackground}   alt = "Michael comber - COMBERsemos!"   />
               </div>
               <div className="flex-center pad padb">
                 <p className="font30 weight800 padding5 color-b">

@@ -22,27 +22,38 @@ const Comber = () => (
       <Row className="row">
         <div className="img-container">
           <a target="_blank" href="https://www.instagram.com/tv/CKfJuUbAXen/" rel="noopener noreferrer">
-            <img src={image1} className="img-c" />
+            <img src={image1}
+            className="img-c"
+            alt = "Michael Comber - Marcela Cubillos"  
+          />
           </a>
         </div>
         <div className="img-container">
           <a target="_blank" href="" rel="noopener noreferrer">
-            <img src={image2} className="img-c" />
+            <img src={image2} className="img-c"
+              alt = "Michael Comber - Diego Schalper"  
+            />
           </a>
         </div>
         <div className="img-container">
           <a target="_blank" href="https://www.instagram.com/tv/CIWpg5uJ6MO/" rel="noopener noreferrer">
-            <img src={image6} className="img-c" />
+            <img src={image6} className="img-c"
+              alt = "Michael Comber - Karin Luck"  
+            />
           </a>
         </div>
         <div className="img-container">
           <a target="_blank" href="" rel="noopener noreferrer">
-            <img src={image3} className="img-c" />
+            <img src={image3} className="img-c"
+              alt = "Michael Comber - Bernardo Fontaine"  
+            />
           </a>
         </div>
         <div className="img-container">
           <a target="_blank" href="" rel="noopener noreferrer">
-            <img src={image4} className="img-c" />
+            <img src={image4} className="img-c"
+              alt = "Michael Comber - Iván Poduje"  
+            />
           </a>
         </div>
         <div className="img-container">
@@ -50,6 +61,7 @@ const Comber = () => (
             target="_blank"
             href="https://www.instagram.com/tv/CKSff-ggj3m/"
             rel="noopener noreferrer"
+            alt = "Michael Comber - Pablo Allard"  
           >
             <img src={image5} className="img-c" />
           </a>
@@ -59,13 +71,16 @@ const Comber = () => (
             target="_blank"
             href="https://www.instagram.com/tv/CJCdgG6DgSS/"
             rel="noopener noreferrer"
+            alt = "Michael Comber - Verónica Campino" 
           >
             <img src={image7} className="img-c" />
           </a>
         </div>
         <div className="img-container">
           <a target="_blank" href="" rel="noopener noreferrer">
-            <img src={image8} className="img-c" />
+            <img src={image8} className="img-c"
+             alt = "Michael Comber - Sergio Torres" 
+            />
           </a>
         </div>
         <div className="img-container">
@@ -74,7 +89,9 @@ const Comber = () => (
             href="https://www.instagram.com/p/CGYYwM2DBwO/?igshid=n20c71rbjad7"
             rel="noopener noreferrer"
           >
-            <img src={image9} className="img-c" />
+            <img src={image9} className="img-c"
+               alt = "Michael Comber - Luis Soto" 
+            />
           </a>
         </div>
         <div className="img-container">
@@ -83,7 +100,9 @@ const Comber = () => (
             href="https://www.instagram.com/tv/CJ_BTh-jR0z/"
             rel="noopener noreferrer"
           >
-            <img src={image10} className="img-c" />
+            <img src={image10} className="img-c"
+               alt = "Michael Comber - Cecilia Herrera" 
+            />
           </a>
         </div>
       </Row>

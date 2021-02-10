@@ -48,7 +48,7 @@ const about = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" className="img-2" />
+            <img src={HeroImage} alt="Michael comber - Candidato Concejal por Lo Barnechea" className="img-2" />
           </div>
         </Col>
         

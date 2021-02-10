@@ -16,27 +16,27 @@ const Portfolio = () => (
     <Title title="EN TERRENO" />
     <div class="gallery cf">
       <div className="img-cont">
-        <img src={Preview2} />
+        <img src={Preview2} alt = "Michael Comber"/>
       </div>
       <div className="img-cont">
-        <img src={Preview4} />
+        <img src={Preview4} alt = "Michael Comber"/>
       </div>
       <div className="img-cont">
-        <img src={Preview5} />
+        <img src={Preview5} alt = "Michael Comber"/>
       </div>
       <div className="vid-cont2">
         <video className="vid" controls>
-          <source src={Preview8} />
+          <source src={Preview8} alt = "Michael Comber"/>
         </video>
       </div>
       <div className="vid-cont2">
         <video className="vid" controls>
-          <source src={Preview6} />
+          <source src={Preview6} alt = "Michael Comber"/>
         </video>
       </div>
       <div className="vid-cont2">
         <video className="vid" controls>
-          <source src={Preview7} />
+          <source src={Preview7} alt = "Michael Comber"/>
         </video>
       </div>
     </div>
