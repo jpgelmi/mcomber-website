@@ -50,7 +50,7 @@ const Comber = () => (
           </a>
         </div>
         <div className="img-container">
-          <a target="_blank" href="" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.instagram.com/p/CLIXoPaAtZU/" rel="noopener noreferrer">
             <img src={image4} className="img-c"
               alt = "Michael Comber - Iván Poduje"  
             />
